@@ -20,18 +20,18 @@ const Navbar = () => {
         <nav className="nav-menu d-none d-lg-block">
           <ul>
             <li className="active">
-              <a href="index.html">Home</a>
+              <Link href="/">Inicio</Link>
             </li>
             <li>
-              <a href="#about">About</a>
+              <Link href="#about">Equipo</Link>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <Link href="#services">Servicios</Link>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <Link href="#portfolio">Portafolio</Link>
             </li>
-            <li>
+            {/* <li>
               <a href="#team">Team</a>
             </li>
             <li className="drop-down">
@@ -73,13 +73,13 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#contact">Contact</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
-        <a href="#about" className="get-started-btn scrollto">
+        {/* <a href="#about" className="get-started-btn scrollto">
           Get Started
-        </a>
+        </a> */}
       </div>
     </header>
   );

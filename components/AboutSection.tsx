@@ -18,35 +18,29 @@ const AboutSection = () => {
             data-aos="fade-right"
             data-aos-delay="100"
           >
-            <h3>
-              Voluptatem dignissimos provident quasi corporis voluptates sit
-              assumenda.
-            </h3>
+            <h3>Tú lo piensas, nosotros lo hacemos.</h3>
             <p className="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Somos tus aliados tecnológicos. Nos especializamos en aterrizar y
+              desarrollar tu idea. Desde aplicaciones web hasta móviles, cuentas
+              con nosotros para lo que se te ocurra.
             </p>
             <ul>
               <li>
-                <i className="ri-check-double-line"></i> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
+                <i className="ri-check-double-line"></i> Trabajamos con las
+                últimas tecnologías del mercado.
               </li>
               <li>
-                <i className="ri-check-double-line"></i> Duis aute irure dolor
-                in reprehenderit in voluptate velit.
+                <i className="ri-check-double-line"></i> Ofrecemos soluciones
+                escalables para todo tipo de problemas.
               </li>
               <li>
-                <i className="ri-check-double-line"></i> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate trideta storacalaperda mastiro dolore
-                eu fugiat nulla pariatur.
+                <i className="ri-check-double-line"></i> Trato cercano y
+                contínuo a lo largo de todo el proceso de desarrollo.
               </li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident
+              ¡Confía en nosotros tu innovación tecnológica y déjate sorprender
+              por el resultado que juntos lograremos!
             </p>
           </div>
         </div>

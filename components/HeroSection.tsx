@@ -14,9 +14,10 @@ const HeroSection = () => {
         >
           <div className="col-xl-6 col-lg-8">
             <h1>
-              Powerful Digital Solutions With Gp<span>.</span>
+              Nuestra tecnología <span>,</span> <br />
+              Tu futuro <span>.</span>
             </h1>
-            <h2>We are team of talented digital marketers</h2>
+            {/* <h2>We are team of talented digital marketers</h2> */}
           </div>
         </div>
 
@@ -29,7 +30,7 @@ const HeroSection = () => {
             <div className="icon-box">
               <i className="ri-store-line"></i>
               <h3>
-                <a href="">Lorem Ipsum</a>
+                <a href="">Roche</a>
               </h3>
             </div>
           </div>
@@ -37,7 +38,7 @@ const HeroSection = () => {
             <div className="icon-box">
               <i className="ri-bar-chart-box-line"></i>
               <h3>
-                <a href="">Dolor Sitema</a>
+                <a href="">Comité de Lectura</a>
               </h3>
             </div>
           </div>
@@ -45,7 +46,7 @@ const HeroSection = () => {
             <div className="icon-box">
               <i className="ri-calendar-todo-line"></i>
               <h3>
-                <a href="">Sedare Perspiciatis</a>
+                <a href="">Clicker</a>
               </h3>
             </div>
           </div>
@@ -53,7 +54,7 @@ const HeroSection = () => {
             <div className="icon-box">
               <i className="ri-paint-brush-line"></i>
               <h3>
-                <a href="">Magni Dolores</a>
+                <a href="">Psicotrec</a>
               </h3>
             </div>
           </div>
@@ -61,7 +62,7 @@ const HeroSection = () => {
             <div className="icon-box">
               <i className="ri-database-2-line"></i>
               <h3>
-                <a href="">Nemos Enimade</a>
+                <a href="">Aprender Creando</a>
               </h3>
             </div>
           </div>
