@@ -14,10 +14,9 @@ const HeroSection = () => {
         >
           <div className="col-xl-6 col-lg-8">
             <h1>
-              Nuestra tecnología <span>,</span> <br />
+              Nuestra tecnología<span>,</span> <br />
               Tu futuro <span>.</span>
             </h1>
-            {/* <h2>We are team of talented digital marketers</h2> */}
           </div>
         </div>
 

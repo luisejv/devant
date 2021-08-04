@@ -26,13 +26,13 @@ const Footer = () => {
                   </div>
                 </Link>
                 <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA
+                  Calle Osa Mayor 240 <br />
+                  Surco - Lima, Perú
                   <br />
                   <br />
-                  <strong>Phone:</strong> +1 5589 55488 55
+                  <strong>Telf:</strong> +51 968 201 380
                   <br />
-                  <strong>Email:</strong> info@example.com
+                  <strong>Email:</strong> devant.dev.pe@gmail.com
                   <br />
                 </p>
                 <div className="social-links mt-3">
@@ -56,42 +56,50 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
+              <h4>Links</h4>
               <ul>
                 <li>
                   <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">About us</a>
+                  <a href="#">Nosotros</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Services</a>
+                  <a href="#">Servicios</a>
                 </li>
-                <li>
+                {/* <li>
                   <i className="bx bx-chevron-right"></i>{" "}
                   <a href="#">Terms of service</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
                   <a href="#">Privacy policy</a>
-                </li>
+                </li> */}
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 footer-links">
-              <h4>Our Services</h4>
+              <h4>Nuestros Servicios</h4>
               <ul>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Web Design</a>
+                  <a href="#">Diseño Web</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Web Development</a>
+                  <a href="#">Desarrollo Web</a>
                 </li>
                 <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#">Aplicaciones Móviles</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#">e-Commerce</a>
+                </li>
+                {/* <li>
                   <i className="bx bx-chevron-right"></i>{" "}
                   <a href="#">Product Management</a>
                 </li>
@@ -102,15 +110,15 @@ const Footer = () => {
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
                   <a href="#">Graphic Design</a>
-                </li>
+                </li> */}
               </ul>
             </div>
 
             <div className="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
+              <h4>Newsletter</h4>
               <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
+                ¡Suscríbete a nuestro newsletter para estar al tanto de las
+                últimas noticias y promociones!
               </p>
               <form action="" method="post">
                 <input type="email" name="email" />
@@ -125,11 +133,11 @@ const Footer = () => {
         <div className="copyright">
           &copy; Copyright{" "}
           <strong>
-            <span>Gp</span>
+            <span>Devant</span>
           </strong>
-          . All Rights Reserved
+          . Todos los derechos reservados.
         </div>
-        <div className="credits text-black">
+        <div className="credits" style={{ display: "none" }}>
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>

@@ -24,14 +24,62 @@ const ClientsSection = () => {
             },
           }}
         >
-          <img src="assets/img/clients/client-1.png" alt="" />
+          <img
+            width="400"
+            height="50"
+            src="assets/img/clients/react.png"
+            alt=""
+          />
+          <img
+            width="400"
+            height="50"
+            src="assets/img/clients/angular.png"
+            alt=""
+          />
+          <img
+            width="400"
+            height="50"
+            src="assets/img/clients/vuejs.jpg"
+            alt=""
+          />
+          <img
+            width="400"
+            height="50"
+            src="assets/img/clients/next.png"
+            alt=""
+          />
+          <img
+            width="800"
+            height="50"
+            src="assets/img/clients/node.png"
+            alt=""
+          />
+          <img
+            width="400"
+            height="50"
+            src="assets/img/clients/nest.png"
+            alt=""
+          />
+          <img
+            width="400"
+            height="50"
+            src="assets/img/clients/spring.png"
+            alt=""
+          />
+          <img
+            width="400"
+            height="50"
+            src="assets/img/clients/flutter.png"
+            alt=""
+          />
+          {/* <img src="assets/img/clients/client-1.png" alt="" />
           <img src="assets/img/clients/client-2.png" alt="" />
           <img src="assets/img/clients/client-3.png" alt="" />
           <img src="assets/img/clients/client-4.png" alt="" />
           <img src="assets/img/clients/client-5.png" alt="" />
           <img src="assets/img/clients/client-6.png" alt="" />
           <img src="assets/img/clients/client-7.png" alt="" />
-          <img src="assets/img/clients/client-8.png" alt="" />
+          <img src="assets/img/clients/client-8.png" alt="" /> */}
         </OwlCarousel>
       </div>
     </section>

@@ -6,7 +6,7 @@ const ServicesSection = () => {
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>Services</h2>
-          <p>Check our Services</p>
+          <p>Nuestros Servicios</p>
         </div>
 
         <div className="row">
@@ -17,14 +17,14 @@ const ServicesSection = () => {
           >
             <div className="icon-box">
               <div className="icon">
-                <i className="bx bxl-dribbble"></i>
+                <i className="bx bx-trim"></i>
               </div>
               <h4>
-                <a href="">Lorem Ipsum</a>
+                <a href="">Páginas Web</a>
               </h4>
               <p>
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi
+                Landing pages y webs interactivas. ¡Déjate sorprender por el
+                estilo que puede llegar a tener tu página!
               </p>
             </div>
           </div>
@@ -36,14 +36,14 @@ const ServicesSection = () => {
           >
             <div className="icon-box">
               <div className="icon">
-                <i className="bx bx-file"></i>
+                <i className="bx bx-credit-card"></i>
               </div>
               <h4>
-                <a href="">Sed ut perspiciatis</a>
+                <a href="">e-Commerce</a>
               </h4>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore
+                Dale a tu negocio ese empujón que necesita para llegar a más
+                personas y manejar mejor tus productos.
               </p>
             </div>
           </div>
@@ -55,14 +55,14 @@ const ServicesSection = () => {
           >
             <div className="icon-box">
               <div className="icon">
-                <i className="bx bx-tachometer"></i>
+                <i className="bx bxs-institution"></i>
               </div>
               <h4>
-                <a href="">Magni Dolores</a>
+                <a href="">Intranet/ERP</a>
               </h4>
               <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia
+                Estamos capacitados para realizar desarrollos de aplicaciones
+                internas de gran escala.
               </p>
             </div>
           </div>
@@ -74,14 +74,14 @@ const ServicesSection = () => {
           >
             <div className="icon-box">
               <div className="icon">
-                <i className="bx bx-world"></i>
+                <i className="bx bx-mobile"></i>
               </div>
               <h4>
-                <a href="">Nemo Enim</a>
+                <a href="">Aplicativos Móviles</a>
               </h4>
               <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis
+                Desarrollamos apps móviles de gran calidad, adaptables a todas
+                las necesidades y plataformas.
               </p>
             </div>
           </div>
@@ -93,14 +93,14 @@ const ServicesSection = () => {
           >
             <div className="icon-box">
               <div className="icon">
-                <i className="bx bx-slideshow"></i>
+                <i className="bx bx-laptop"></i>
               </div>
               <h4>
-                <a href="">Dele cardo</a>
+                <a href="">Aplicaciones de Escritorio</a>
               </h4>
               <p>
-                Quis consequatur saepe eligendi voluptatem consequatur dolor
-                consequuntur
+                ¿Necesitas ese software que funcione en toda tu red de trabajo?
+                Pues no busques más, he aquí la solución.
               </p>
             </div>
           </div>
@@ -112,14 +112,16 @@ const ServicesSection = () => {
           >
             <div className="icon-box">
               <div className="icon">
-                <i className="bx bx-arch"></i>
+                <i className="bx bx-cloud-upload"></i>
               </div>
               <h4>
-                <a href="">Divera don</a>
+                <a href="">Servidores/Buckets</a>
               </h4>
               <p>
-                Modi nostrum vel laborum. Porro fugit error sit minus sapiente
-                sit aspernatur
+                ¿Quieres tener un sistema integrado que maneje la lógica de tu
+                negocio, almacene tus archivos sensibles y pueda ser consultado
+                desde diferentes dispositivos al mismo tiempo? Lo hacemos y en
+                la nube ;)
               </p>
             </div>
           </div>

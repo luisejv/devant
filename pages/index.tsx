@@ -28,13 +28,17 @@ export default function Home() {
         <main id="main">
           <AboutSection />
           <ClientsSection />
-          <FeaturesSection />
+          {/* TODO: Ponerle titulo de la parte de servicios y poner los 4 servicios */}
+          {/* <FeaturesSection /> */}
+          {/* Poner las tecnologias que usamos */}
           <ServicesSection />
-          <CallToActionSection />
-          <PortfolioSection />
-          <CountsSection />
-          <Testimonials />
-          <TeamSection />
+          {/* TODO: Integracion con Calendly */}
+          {/* <CallToActionSection /> */}
+          {/* <PortfolioSection /> */}
+          {/* <CountsSection /> */}
+          {/* TODO: Agregar testimonios */}
+          {/* <Testimonials /> */}
+          {/* <TeamSection /> */}
           <ContactSection />
         </main>
       </div>
