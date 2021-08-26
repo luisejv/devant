@@ -30,7 +30,7 @@ const ContactSection = () => {
               <div className="email">
                 <i className="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>devant.dev.pe@gmail.com</p>
+                <p>devant@devant.pe</p>
               </div>
 
               <div className="phone">

@@ -32,23 +32,23 @@ const Footer = () => {
                   <br />
                   <strong>Telf:</strong> +51 968 201 380
                   <br />
-                  <strong>Email:</strong> devant.dev.pe@gmail.com
+                  <strong>Email:</strong> devant@devant.pe
                   <br />
                 </p>
                 <div className="social-links mt-3">
-                  <a href="#" className="twitter">
+                  <a className="twitter">
                     <i className="bx bxl-twitter"></i>
                   </a>
-                  <a href="#" className="facebook">
+                  <a className="facebook">
                     <i className="bx bxl-facebook"></i>
                   </a>
-                  <a href="#" className="instagram">
+                  <a className="instagram">
                     <i className="bx bxl-instagram"></i>
                   </a>
-                  <a href="#" className="google-plus">
+                  <a className="google-plus">
                     <i className="bx bxl-skype"></i>
                   </a>
-                  <a href="#" className="linkedin">
+                  <a className="linkedin">
                     <i className="bx bxl-linkedin"></i>
                   </a>
                 </div>
@@ -84,20 +84,17 @@ const Footer = () => {
               <h4>Nuestros Servicios</h4>
               <ul>
                 <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Diseño Web</a>
+                  <i className="bx bx-chevron-right"></i> <a>Diseño Web</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i> <a>Desarrollo Web</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Desarrollo Web</a>
+                  <a>Aplicaciones Móviles</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Aplicaciones Móviles</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">e-Commerce</a>
+                  <i className="bx bx-chevron-right"></i> <a>e-Commerce</a>
                 </li>
                 {/* <li>
                   <i className="bx bx-chevron-right"></i>{" "}
@@ -115,7 +112,7 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Newsletter</h4>
+              {/* <h4>Newsletter</h4>
               <p>
                 ¡Suscríbete a nuestro newsletter para estar al tanto de las
                 últimas noticias y promociones!
@@ -123,7 +120,7 @@ const Footer = () => {
               <form action="" method="post">
                 <input type="email" name="email" />
                 <input type="submit" value="Subscribe" />
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
