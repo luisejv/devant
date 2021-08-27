@@ -1,6 +1,23 @@
+import Image from "next/image";
 import React from "react";
 
 const HeroSection = () => {
+  const images: string[] = [
+    "/assets/img/clientes/aprendercreando.png",
+    "/assets/img/clientes/clicker.png",
+    "/assets/img/clientes/comite.jpeg",
+    "/assets/img/clientes/psicotrec.jpeg",
+    "/assets/img/clientes/roche.png",
+  ];
+
+  const alts: string[] = [
+    "Aprender Creando",
+    "Clicker",
+    "Comité de Lectura",
+    "Psicotrec",
+    "Roche",
+  ];
+
   return (
     <section
       id="hero"
@@ -15,7 +32,7 @@ const HeroSection = () => {
           <div className="col-xl-6 col-lg-8">
             <h1>
               Nuestra tecnología<span>,</span> <br />
-              Tu futuro <span>.</span>
+              tu futuro <span>.</span>
             </h1>
           </div>
         </div>
@@ -25,7 +42,26 @@ const HeroSection = () => {
           data-aos="zoom-in"
           data-aos-delay="250"
         >
-          <div className="col-xl-2 col-md-4 col-6">
+          {images.map((imageSrc: string, idx: number) => {
+            return (
+              <div key={idx} className="col-xl-2 col-md-4 col-6">
+                <div className="icon-box">
+                  <Image
+                    className="contain-image"
+                    width="100"
+                    height="100"
+                    src={imageSrc}
+                    alt={alts[idx]}
+                  />
+                  <h3>
+                    <a href="">{alts[idx]}</a>
+                  </h3>
+                </div>
+              </div>
+            );
+          })}
+
+          {/* <div className="col-xl-2 col-md-4 col-6">
             <div className="icon-box">
               <i className="ri-store-line"></i>
               <h3>
@@ -64,7 +100,7 @@ const HeroSection = () => {
                 <a href="">Aprender Creando</a>
               </h3>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
