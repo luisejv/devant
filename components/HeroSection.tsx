@@ -5,8 +5,8 @@ const HeroSection = () => {
   const images: string[] = [
     "/assets/img/clientes/aprendercreando.png",
     "/assets/img/clientes/clicker.png",
-    "/assets/img/clientes/comite.jpeg",
-    "/assets/img/clientes/psicotrec.jpeg",
+    "/assets/img/clientes/comite.png",
+    "/assets/img/clientes/psicotrec.png",
     "/assets/img/clientes/roche.png",
   ];
 
@@ -32,7 +32,7 @@ const HeroSection = () => {
           <div className="col-xl-6 col-lg-8">
             <h1>
               Nuestra tecnología<span>,</span> <br />
-              tu futuro <span>.</span>
+              tu futuro<span>.</span>
             </h1>
           </div>
         </div>
@@ -45,7 +45,7 @@ const HeroSection = () => {
           {images.map((imageSrc: string, idx: number) => {
             return (
               <div key={idx} className="col-xl-2 col-md-4 col-6">
-                <div className="icon-box">
+                <div className="icon-box client-container">
                   <Image
                     className="contain-image"
                     width="100"
