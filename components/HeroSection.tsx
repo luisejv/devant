@@ -4,17 +4,17 @@ import React from "react";
 const HeroSection = () => {
   const images: string[] = [
     "/assets/img/clientes/aprendercreando.png",
-    "/assets/img/clientes/clicker.png",
-    "/assets/img/clientes/comite.png",
     "/assets/img/clientes/psicotrec.png",
+    "/assets/img/clientes/comite.png",
+    "/assets/img/clientes/clicker.png",
     "/assets/img/clientes/roche.png",
   ];
 
   const alts: string[] = [
     "Aprender Creando",
-    "Clicker",
-    "Comité de Lectura",
     "Psicotrec",
+    "Comité de Lectura",
+    "Clicker",
     "Roche",
   ];
 
@@ -44,7 +44,7 @@ const HeroSection = () => {
         >
           {images.map((imageSrc: string, idx: number) => {
             return (
-              <div key={idx} className="col-xl-2 col-md-4 col-6">
+              <div key={idx} className="col-xl-2 col-md-4 col-6 my-1">
                 <div className="icon-box client-container">
                   <Image
                     className="contain-image"
@@ -60,47 +60,6 @@ const HeroSection = () => {
               </div>
             );
           })}
-
-          {/* <div className="col-xl-2 col-md-4 col-6">
-            <div className="icon-box">
-              <i className="ri-store-line"></i>
-              <h3>
-                <a href="">Roche</a>
-              </h3>
-            </div>
-          </div>
-          <div className="col-xl-2 col-md-4 col-6 ">
-            <div className="icon-box">
-              <i className="ri-bar-chart-box-line"></i>
-              <h3>
-                <a href="">Comité de Lectura</a>
-              </h3>
-            </div>
-          </div>
-          <div className="col-xl-2 col-md-4 col-6 mt-4 mt-md-0">
-            <div className="icon-box">
-              <i className="ri-calendar-todo-line"></i>
-              <h3>
-                <a href="">Clicker</a>
-              </h3>
-            </div>
-          </div>
-          <div className="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
-            <div className="icon-box">
-              <i className="ri-paint-brush-line"></i>
-              <h3>
-                <a href="">Psicotrec</a>
-              </h3>
-            </div>
-          </div>
-          <div className="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
-            <div className="icon-box">
-              <i className="ri-database-2-line"></i>
-              <h3>
-                <a href="">Aprender Creando</a>
-              </h3>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>
