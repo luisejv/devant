@@ -23,7 +23,7 @@ const FormContact = () => {
       .required('Nombre requerido'),
     email: Yup.string().email('Formato inválido').required('Email requerido'),
     subject: Yup.string()
-      .min(8, 'Tema debe tener 2 caracteres o más')
+      .min(8, 'Tema debe tener 8 caracteres o más')
       .required('Tema requerido'),
     message: Yup.string().required('Por favor, escríbenos algo'),
   });
