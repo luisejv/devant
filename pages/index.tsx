@@ -1,16 +1,16 @@
 import Head from "next/head";
 import AboutSection from "@components/AboutSection";
-// import CallToActionSection from "@components/CallToActionSection";
+import CallToActionSection from "@components/CallToActionSection";
 import ClientsSection from "@components/ClientsSection";
-import ContactSection from "@components/ContactSection";
-// import CountsSection from "@components/CountsSection";
-// import FeaturesSection from "@components/FeaturesSection";
+import ContactSection from "@components/ContactSection/ContactSection";
+import CountsSection from "@components/CountsSection";
+import FeaturesSection from "@components/FeaturesSection";
 import HeroSection from "@components/HeroSection";
-// import PortfolioSection from "@components/PortfolioSection";
+import PortfolioSection from "@components/PortfolioSection";
 import ServicesSection from "@components/ServicesSection";
-// import TeamSection from "@components/TeamSection";
-// import Testimonials from "@components/Testimonials";
-// import styles from "@styles/Home.module.css";
+import TeamSection from "@components/TeamSection";
+import Testimonials from "@components/Testimonials";
+import styles from "@styles/Home.module.css";
 
 export default function Home() {
   return (
