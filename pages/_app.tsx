@@ -1,12 +1,12 @@
-import "../styles/globals.css";
-import "../assets/vendor/bootstrap/css/bootstrap.min.css";
-import "../assets/vendor/icofont/icofont.min.css";
-import "../assets/vendor/boxicons/css/boxicons.min.css";
-import "../assets/vendor/owl.carousel/assets/owl.carousel.min.css";
-import "../assets/vendor/venobox/venobox.css";
-import "../assets/vendor/remixicon/remixicon.css";
-import "../assets/vendor/aos/aos.css";
-import "../assets/css/style.css";
+import "@styles/globals.css";
+import "@assets/vendor/bootstrap/css/bootstrap.min.css";
+import "@assets/vendor/icofont/icofont.min.css";
+import "@assets/vendor/boxicons/css/boxicons.min.css";
+import "@assets/vendor/owl.carousel/assets/owl.carousel.min.css";
+import "@assets/vendor/venobox/venobox.css";
+import "@assets/vendor/remixicon/remixicon.css";
+import "@assets/vendor/aos/aos.css";
+import "@assets/css/style.css";
 
 import type { AppProps } from "next/app";
 import Layout from "../components/shared/Layout";
